@@ -7,5 +7,15 @@
         "distDir": "."
       }
     }
+  ],
+  "rewrites": [
+    {
+      "source": "/mappingguide",
+      "destination": "/index.html"
+    },
+    {
+      "source": "/mappingguide/:path*",
+      "destination": "/:path*"
+    }
   ]
 }
