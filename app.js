@@ -2809,6 +2809,7 @@ def map_prescription_to_medication_request(prescription):
             </ul>
         `
     }
+};
 
 // Application state
 let currentPage = 'intro';

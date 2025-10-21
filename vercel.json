@@ -1,21 +1,4 @@
 {
-  "builds": [
-    {
-      "src": "package.json",
-      "use": "@vercel/static-build",
-      "config": {
-        "distDir": "."
-      }
-    }
-  ],
-  "rewrites": [
-    {
-      "source": "/mappingguide",
-      "destination": "/index.html"
-    },
-    {
-      "source": "/mappingguide/:path*",
-      "destination": "/:path*"
-    }
-  ]
+  "cleanUrls": true,
+  "trailingSlash": false
 }
