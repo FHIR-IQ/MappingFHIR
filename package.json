@@ -1,7 +1,7 @@
 {
-  "name": "fhir-mapping-wiki",
-  "version": "1.0.0",
-  "description": "A comprehensive wiki for FHIR mapping documentation and resources",
+  "name": "fhir-iq-mapping-wiki",
+  "version": "2.0.0",
+  "description": "FHIR IQ Mapping Wiki - A comprehensive wiki for FHIR mapping documentation and resources",
   "main": "index.html",
   "scripts": {
     "start": "npx http-server -p 8080 -o",
